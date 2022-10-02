@@ -1,0 +1,392 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.container ul{
+height: 60px;
+width: 100%;
+display: inline-flex;
+list-style: none;
+background-color: rgb(240, 245, 246);
+box-shadow: 1px 1px 10px 1px #888888;
+}
+.container ul li{
+width: 150px;
+padding-top: 15px;
+}
+.Nav_li{
+position: relative;
+left: 30px;
+}
+.container ul li a{
+text-decoration: none;
+}
+.fa-sharp{
+font-size: 1.4em;
+margin-right: 5px;
+}
+.About_menu ul{
+display: none;
+}
+.container ul li:hover .About_menu ul{
+display: inline;
+cursor: pointer;
+line-height: 2em;
+
+}
+.About_menu{
+margin-top: 20px;
+background-color: rgb(242, 247, 247);
+border-radius: 10px;
+box-shadow: 1px 1px 10px 1px #888888;
+width: 150px;
+font-size: 1em;
+font-weight: 400px;
+text-align: center;
+}
+.About_menu ul li:hover{
+background-color: rgb(162, 214, 83);
+color: white;
+}
+.Service_menu ul{
+    display: none;
+}
+.container ul li:hover .Service_menu ul{
+    display: inline;
+    cursor: pointer;
+    line-height: 2em;
+} 
+.Service_menu{
+    margin-top: 20px;
+    background-color: rgb(242, 247, 247);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #a59b9b;
+    width: 150px;
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Service_menu ul li:hover{
+    background-color: rgb(182, 189, 172);
+    color: black;
+}
+.fa-angle-right{
+float: right;
+margin-right: 10px;
+margin-top: 10px;
+}
+.Services_health_menu{
+display: none;
+}
+.Service_menu ul li:hover .Services_health_menu{
+display: inline;
+
+}
+.Service_menu ul li:hover .Services_health_menu{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Services_health_menu ul li:hover{
+cursor: pointer;
+background-color: rgb(162, 214, 83);
+color: white;
+}
+.Education_menu{
+display: none;
+}
+.Service_menu ul li:hover .Education_menu{
+display: inline;
+}
+.Service_menu ul li:hover .Education_menu{
+    position: absolute;
+    margin-left: 52px;
+    margin-top: -11px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Service_menu ul li .Education_menu ul li:hover:first-child{
+background-color: rgb(162, 214, 83) !important;
+color: white;
+}
+.Service_menu ul li .Education_menu ul li:hover{
+background-color: rgb(182, 189, 172);
+}
+.Service_menu ul li .Education_menu ul li .Vocational_Training-menu{
+display: none;
+}
+.Service_menu ul li .Education_menu ul li:hover .Vocational_Training-menu{
+display: inline;
+}
+.Education_menu ul li .Vocational_Training-menu{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Vocational_Training-menu ul li:hover{
+    background-color: rgb(162, 214, 83) !important;
+}
+.Service_menu ul li .Education_menu ul li .fa-angle-right{
+margin-right: 5px;
+}
+.Technical_Education-menu{
+display: none;
+}
+.Education_menu ul li:hover .Technical_Education-menu{
+display: inline;
+}
+.Technical_Education-menu{
+    position: absolute;
+    margin-left: 18px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Technical_Education-menu ul li:hover{
+    background-color: rgb(162, 214, 83) !important;
+}
+.Islamic_Edu-menu{
+display: none;
+}
+.Education_menu ul li:hover .Islamic_Edu-menu{
+display: inline;
+}
+.Islamic_Edu-menu{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Islamic_Edu-menu ul li:hover{
+background-color:rgb(162, 214, 83)!important ;
+}
+.Act_Fin-menu{
+display: none;
+}
+.Education_menu ul li:hover .Act_Fin-menu{
+display: inline;
+}
+.Act_Fin-menu{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Act_Fin-menu ul li:hover{
+background-color: rgb(162, 214, 83);
+}
+.Foood_menu{
+display: none;
+}
+.Service_menu ul li:hover .Foood_menu{
+display: inline;
+}
+.Foood_menu{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -11px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+}
+.Foood_menu ul li:hover{
+background-color:rgb(162, 214, 83) ;
+}
+.Sadiqah_menu{
+display: none;
+}
+.Service_menu ul li:hover .Sadiqah_menu{
+display: inline;
+}
+.Sadiqah_menu{
+    position: absolute;
+    margin-left: 39px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+}
+.Sadiqah_menu ul li:hover{
+    background-color: rgb(162, 214, 83);
+}
+.Social_menu{
+display: none;
+}
+.Service_menu ul li:hover .Social_menu{
+display: inline;
+}
+.Social_menu{
+    position: absolute;
+    margin-left:39px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+}
+.Social_menu ul li:hover{
+    background-color: rgb(162, 214, 83);
+}
+.Disaster_menu{
+display: none;
+}
+.Service_menu ul li:hover .Disaster_menu{
+display: inline;
+}
+.Disaster_menu{
+    position: absolute;
+    margin-left: 44px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+}
+.Disaster_menu ul li:hover{
+    background-color: rgb(162, 214, 83);
+}
+.Saylani_Ehsaas_menu{
+display: none;
+}
+.Service_menu ul li:hover .Saylani_Ehsaas_menu{
+display: inline;
+}
+.Saylani_Ehsaas_menu{
+    position: absolute;
+    margin-left: 38px;
+    margin-top: -10px;
+    background-color: rgb(242, 247, 247);
+     box-shadow: 1px 1px 10px 1px #888888;
+     border-radius: 10px; 
+     color: black; 
+    font-size: 1em;
+    font-weight: 400px;
+}
+.Saylani_Ehsaas_menu ul li:hover{
+    background-color: rgb(162, 214, 83);
+}
+.Media_menu ul{
+display: none;
+}
+.container ul li:hover .Media_menu ul{
+    display: inline;
+    cursor: pointer;
+    line-height: 2em;
+}
+.Media_menu{
+    margin-top: 20px;
+    background-color: rgb(242, 247, 247);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #888888;
+    width: 150px;
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Media_menu ul li:hover{
+ background-color: rgb(162, 214, 83);
+}
+.News_menu ul{
+display: none;
+}
+.container ul li:hover .News_menu ul{
+    display: inline;
+    cursor: pointer;
+    line-height: 2em;
+}
+.News_menu{
+    margin-top: 20px;
+    background-color: rgb(242, 247, 247);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #888888;
+    width: 150px;
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.News_menu ul li:hover{
+background-color: rgb(162, 214, 83) ;
+}
+.Contact_menu ul{
+display: none;
+}
+.container ul li:hover .Contact_menu ul{
+display: inline;
+cursor: pointer;
+line-height: 2em;
+}
+.Contact_menu{
+    margin-top: 20px;
+    background-color: rgb(242, 247, 247);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #888888;
+    width: 150px;
+    font-size: 1em;
+    font-weight: 400px;
+    text-align: center;
+}
+.Contact_menu ul li:hover{
+ background-color: rgb(162, 214, 83);
+}
+.btn{
+padding-top: 5px;
+padding-right: 10px;
+}
+#Sub_btn{
+background-color: rgb(44, 44, 159);
+color: white;
+border: none;
+border-radius: 10px;
+width: 100px;
+height: 50px;
+}
+#Sub_btn:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
